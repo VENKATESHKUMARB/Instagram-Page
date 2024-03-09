@@ -1,0 +1,437 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    width: 100vw;
+    height:100vh
+}
+.instareelpage{
+
+    width: 800px;
+    min-height: 1000px;
+    margin:0 auto;
+    margin-top: 40px;
+  
+}
+.heading h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.mobiledesign{
+    width: 397px;
+    max-height:760px;
+    background: black;
+    margin-left: 12%;
+    border: 2px solid lightgray;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    z-index: 0;
+}
+.hed2{
+    display: flex;
+}
+
+/* Content */
+.hed2 h2{
+    color: white;
+    font-size: 23px;
+    position: relative;
+    top:-680px;
+    margin-left: 15px;
+    letter-spacing: 1px;
+}
+ .downangle{
+    color:whitesmoke;
+    font-size:15px;
+    position: relative;
+    top:-672px;
+    left: 8px;
+    
+}
+.volume{
+    color: whitesmoke;
+    font-size: 20px;
+    position: relative;
+    top:-670px;
+    left:200px;
+}
+.reelcam{
+    color: whitesmoke;
+      font-size: 20px;
+    position: relative;
+    top:-670px;
+    left:230px;
+
+}
+
+/* Comments,Like,share */
+.allicons{
+    width: 100%;
+}
+.allicons ul{
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-content: flex-end;  */
+    flex-direction: column;
+    list-style: none;
+    position: relative;
+    top:-350px;
+    left: 350px;
+    
+}
+.allicons ul li{
+    margin-top: 20px;
+    
+}
+
+.allicons ul li .hearti{
+    
+    color: red;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+/* Telegram Plane */
+.cib--telegram-plane {
+    display: inline-block;
+    width: 22px;
+    height:22px;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%23000' d='m29.919 6.163l-4.225 19.925c-.319 1.406-1.15 1.756-2.331 1.094l-6.438-4.744l-3.106 2.988c-.344.344-.631.631-1.294.631l.463-6.556L24.919 8.72c.519-.462-.113-.719-.806-.256l-14.75 9.288l-6.35-1.988c-1.381-.431-1.406-1.381.288-2.044l24.837-9.569c1.15-.431 2.156.256 1.781 2.013z'/%3E%3C/svg%3E");
+    background-color: white;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+    cursor: pointer;
+ 
+  }
+
+
+.likestext,
+.commentstext,
+.share
+{
+    margin-top: 5px;
+    color: white;
+}
+.allicons ul li .commenti{
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+.allicons ul li .threedotsi{
+    color: white;
+    font-size: 22px;
+    position: relative;
+    left:13px;
+    cursor: pointer;
+}
+
+
+.vedio video{
+    width:390px;
+    height: 100%;
+    border: 2px solid transparent;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+.mobileglass{
+    width:385px;
+    min-height: 746px;
+    background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(0px);
+        -webkit-backdrop-filter: blur(0px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 2;
+    position: relative;
+    left: 29%;
+    margin-top: 1%;
+    margin-left:3px;
+    margin-right: 8px;
+}
+.mobilecamera{
+    width:80px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    position:absolute;
+    margin-left: 300px;
+    top:10.5%;
+    left:33.8% ;
+    border-radius:10px;
+    z-index:1 ;
+}
+.mobilecamera .cam{
+    background: black;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 14px );
+    -webkit-backdrop-filter: blur( 14px );
+    border-radius: 10px;
+    /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+        border: 1px solid black;
+    width:10px;
+    height:10px;
+    position: relative;
+    left: 18%;
+    top: 2px;
+    border-radius: 50%;
+   
+}
+.mobilecamera .speaker{
+    background: black;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 14px );
+    -webkit-backdrop-filter: blur( 14px );
+    border-radius: 10px;
+    /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+    border: 1px solid black;
+    width:28px;
+    height:6px;
+    position: relative;
+    left:35px;
+    top:-8px;
+
+   
+} 
+
+.user-profile{
+    width: 100%;
+    display: flex;
+}
+.user-profile .images img{
+    width: 35px;
+    height:31px;
+    border-radius: 50%;
+    outline: 2px solid lightgray;
+    outline-offset: 2px;
+    position: relative;
+    top:-400px;
+    left: 20px;
+}
+
+.verify img{
+    width: 15px;
+    height:18px;
+    border-radius: 50%;
+    outline-offset: 2px;
+    position: relative;
+    top:-392px;
+    left:168px;
+
+}
+
+
+.user-profile .username{
+    color:white;
+    font-size:13px;
+    position: relative;
+    top: -393px;
+    left:15px;
+}
+.followbutton button{
+    padding:4px 25px;
+    background: transparent;
+    border:1px solid whitesmoke;
+    border-radius: 13px;
+    color: white;
+    position: relative;
+    top: -398px;
+    left: 40px;
+}
+.usercaption{
+    width:65%;
+    position: relative;
+    top: -395px;
+    color: white;
+    font-size: 15px;
+    left:30px;
+}
+ .image1 img {
+    width:15px;
+    height:13px;
+    border-radius: 50%;
+    position: relative;
+    top:-390px;
+    left: 35px;
+    opacity: 0.7;
+}
+.image2 img {
+    width:15px;
+    height:13px;
+    border-radius: 50%;
+    position: relative;
+    top:-390px;
+    left: 28px;
+    opacity: 0.7;
+}
+.image3 img {
+    width:15px;
+    height:13px;
+    border-radius: 50%;
+    position: relative;
+    top:-390px;
+    left: 23px;
+    opacity: 0.7;
+}
+
+.likeimage{
+    display: flex;
+    position: absolute;
+}
+.likedcontents{
+    font-size: 12px;
+    position: relative;
+    top: -388px;
+    color: white;
+    left:30px;
+
+}
+.musicrelated{
+    width:fit-content;
+    border: 1px solid lightslategray;
+    /* text-align: center; */
+    border-radius: 13px;
+    background: transparent;
+    position: relative;
+    top: -362px;
+    color: white;
+    font-size: 10px;
+    margin-left: 33px;
+    padding:5px 20px;
+    
+    
+}
+
+
+.musicrelated .music::after{
+    content: '';
+    margin-left: 10px;
+
+}
+.allbottomcontents{
+    position: relative;
+    top: -50px;
+}
+.image4 img{
+    width:23px;
+    height:21px;
+    border: 2px solid white;
+    border-radius: 5px;
+    position: relative;
+    top: -430px;
+    left: 353px;
+}
+
+/* total Bottom */
+.totalbottom{
+    width: 100%;
+    position: relative;
+    top: -420px;
+    
+}
+.iconsreel2 ul{
+    display: flex;
+}
+.iconsreel2 ul li{
+    color:white;
+    list-style: none;
+    padding-left: 55px;
+}
+
+/* icons */
+
+.iconsreel2 .home2{
+    color: white;
+    position: relative;
+    right: 30px;
+    top:12px;
+}
+ul li .searching{
+    position: relative;
+    top:7px;
+    font-size: 20px;
+    right: 20px;
+}
+ul li .add-tostoryreel{
+    position: relative;
+    top: 5px;
+    font-size: 25px;
+}
+
+ul li .reel-images4 img{
+    width: 28px;
+    height: 25px;
+    position: relative;
+    top:4px;
+}
+ul li .useraccountnav{
+    border: 2px solid transparent;
+    height:28px;
+    width:30px;
+    border-radius: 50%;
+    position: relative;
+    top: -7px;
+    right: 15px;
+    outline: 2px solid black;
+
+}
+.usernav-images img{
+    height:28px;
+    width:30px;
+    position: relative;
+    top: 4px;
+    border-radius: 50%;
+}
+
+.topnotification{
+    width: 100%;
+    display: flex;
+}
+.topnotification .signal{
+    font-size: 12px;
+    color:white;
+    position: relative;
+    top: -1160px;
+    left: 10px;
+}
+.topnotification .time{
+    font-size: 12px;
+    color:white;
+    position: relative;
+    top: -1163px;
+    left: 20px;
+    font-weight: bold;
+
+}
+.battery{
+    font-size: 20px;
+    color:white;
+    position: relative;
+    top: -1163px;
+    left: 310px;
+    font-weight: bold;
+
+}
